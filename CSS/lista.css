@@ -1,0 +1,17 @@
+body{
+	background-color: white;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	color: red;
+}
+
+ul{
+	font-family: Arial;
+	font-size: 12pt;
+	list-style-image: url(cake.png);
+	list-style-position: inside;
+}

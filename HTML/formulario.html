@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Formulário</title>
+</head>
+<body>
+	<header><h1>Curso de HTML</h1></header>
+	<nav></nav>
+	<form method="post" action="#">
+		Nome:<input type="text" name="nome" placeholder="Informe seu nome" value="Elton" required><br>
+		Email:<input type="text" name="email" placeholder="Informe seu email" disabled><br>
+		Senha:<input type="password" name="senha"><br>
+		CPF:<input type="text" name="CPF" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}"><br>
+		Endereço:<textarea name="endereço">Av. Brasil, 123, São Paulo</textarea><br>
+		<form action="post">
+			<label for="homem">HOMEM</label>
+			<input type="radio" name="sexo" id="homem" value="homem"><br>
+			<label for="mulher">MULHER</label>
+			<input type="radio" name="sexo" id="mulher" value="mulher"><br>
+		<button type="buttooon">Clique</button><br>
+		<button type="button">Enviar</button><br>
+		<button type="submit">Quero me logar</button><br>
+		
+	</form>
+	<section>
+		<form method="post" action="#">
+			<label for="endereco">
+			Endereço:</label>
+			<textarea id="endereco" name="endereco">Av.
+			Brasil, 12 - Cidade - Estado</textarea>
+			
+		</form>
+		<form method="post" action="#">
+			<fieldset>
+				<legend>Dados pessoais:</legend>
+				Nome:<input type="text"><br>
+				Email:<input type="text"><br>
+				Nascimento:<input type="text">
+			</fieldset>
+	
+	</section>
+	<footer></footer>
+</body>
+</html>
